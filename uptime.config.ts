@@ -6,7 +6,7 @@ const pageConfig = {
     { link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
     { link: 'https://youtube.com/@AM_CLUB', label: 'AM科技' },
     { link: 'https://github.com/amclubs', label: 'GitHub' },
-    { link: 'https://809098.xyz', label: 'Blog'},
+
   ],
 }
 
@@ -21,17 +21,17 @@ const workerConfig = {
    
     // Example TCP Monitor
     {
-      id: '809098.xyz',
-      name: 'Blog',
+      id: 'ql',
+      name: '青龙面板hax',
 
       method: 'GET',
 
-      target: 'https://809098.xyz',
+      target: 'http://ql.coc668.us.kg:8880/',
 
       timeout: 10000,
     },
      {
-      id: '809098.xyz',
+      id: 'ql',
       name: '青龙面板抱脸',
 
       method: 'GET',
